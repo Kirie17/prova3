@@ -10,7 +10,7 @@ public class CalculatorTest {
     public void testAddition() {
         Calculator calculator = new Calculator();
         int result = calculator.add(10, 5);
-        assertTrue("A soma de 10 + 5 deveria ser 15", result == 15);
+        assertTrue("A soma de 10 + 5 deveria ser 15!", result == 15);
     }
 
     @Test
